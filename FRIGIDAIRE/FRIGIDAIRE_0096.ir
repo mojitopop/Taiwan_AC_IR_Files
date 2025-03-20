@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+
+name: Function
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9D 00 00 00
+# 
+name: Fan Speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 99 00 00 00
+# 
+name: Air direction
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 96 00 00 00
+# 
+name: TEMP +
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 94 00 00 00
+# 
+name: TEMP -
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 95 00 00 00
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9C 00 00 00
+# 
+name: Feels cold
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9C 00 00 00
+# 
+name: Feels warm
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9C 00 00 00

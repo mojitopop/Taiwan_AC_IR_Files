@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+
+name: Function
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 04 FB 00 00
+# 
+name: Fan Speed
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 01 FE 00 00
+# 
+name: Air direction
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 10 EF 00 00
+# 
+name: TEMP +
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 0A F5 00 00
+# 
+name: TEMP -
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 11 EE 00 00
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 00 FF 00 00
+# 
+name: Feels cold
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 00 FF 00 00
+# 
+name: Feels warm
+type: parsed
+protocol: NECext
+address: 40 FF 00 00
+command: 00 FF 00 00
